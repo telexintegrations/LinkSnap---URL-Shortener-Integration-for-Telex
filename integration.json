@@ -1,0 +1,41 @@
+{
+    "data": {
+      "date": {
+        "created_at": "2025-02-20",
+        "updated_at": "2025-02-20"
+      },
+      "descriptions": {
+        "app_description": "This Simple Link Shortener automatically replaces long, unwieldy URLs with concise, shortened links.",
+        "app_logo": "https://www.design.com/maker/social/5qxuh93lml",
+        "app_name": "LinkSnap",
+        "app_url": "https://hng12-stage3-telex-integration-project.onrender.com",
+        "background_color": "#2C3E50"
+      },
+      "integration_category": "Task Automation",
+      "integration_type": "modifier",
+      "is_active": true,
+      "key_features": [
+        "Shortens long URLs to concise links.",
+        "Easy to use with a simple interface.",
+        "Integrates seamlessly with Telex channels."
+      ],
+      "author": "Simbiat Jinadu",
+      "permissions": {
+        "events": [
+          "Receive messages from Telex channels.",
+          "Format messages based on predefined templates or logic.",
+          "Send formatted responses back to the channel."
+        ]
+      },
+      "settings": [
+        {
+          "label": "Long URL",
+          "type": "text",
+          "description": "Lengthy URL to be shortened.",
+          "default": "https://your-lengthy-url.com",
+          "required": true
+        }
+      ],
+      "target_url": "https://hng12-stage3-telex-integration-project.onrender.com/shortenURL"
+    }
+  }
